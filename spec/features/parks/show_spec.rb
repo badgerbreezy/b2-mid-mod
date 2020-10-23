@@ -20,7 +20,6 @@ RSpec.describe 'As a visitor' do
         name: 'El Grande Osito',
         rating: '8'
       )
-
     end
 # |---------->|tests|<----------|
     it 'I can see the info for that amusement park' do
