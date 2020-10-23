@@ -35,6 +35,8 @@ RSpec.describe 'As a visitor' do
         expect(page).to have_content(@ride_2.name)
         expect(page).to have_content(@ride_2.rating)
       end
+
+      expect(page).to have_content('Average Thrill Rating of Rides: 7.67')
     end
   end
 end

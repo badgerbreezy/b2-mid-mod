@@ -29,7 +29,7 @@ RSpec.describe Park do
         rating: '8'
       )
 
-      expect(@park_1.average_thrill_rating.round(2)).to eq(7.66)
+      expect(@park_1.average_thrill_rating.round(2)).to eq(7.67)
     end
   end
 end
