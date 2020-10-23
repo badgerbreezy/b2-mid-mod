@@ -1,2 +1,12 @@
 <h2><%= @park.name %></h2>
 <p>Admissions: $<%= @park.admission %></p>
+
+<h3>Rides:<h3>
+<% @park.rides.each do |ride| %>
+  <section id="ride-<%= ride.id %>">
+    <ol type = '1'>
+      <li><%= ride.name %><br/>
+        Thrill Rating: <%= ride.rating %></li>
+    </ol>
+  </section>
+<% end %>
