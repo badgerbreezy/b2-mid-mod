@@ -1,0 +1,2 @@
+class AssignedMechanicsController < ApplicationController
+end
